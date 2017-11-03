@@ -29,9 +29,9 @@ public class Student
         //add body of 
         Scanner scan= new Scanner(System.in);
         System.out.println("Enter test1 score for "+this.name+": ");
-        double score1=scan.nextDouble();
+        score1=scan.nextDouble();
         System.out.println("Enter test2 score for "+this.name+": ");
-        double score2=scan.nextDouble();
+        score2=scan.nextDouble();
     }
     //-----------------------------------------------
     //getAverage: compute and return the student's test average
@@ -55,6 +55,6 @@ public class Student
     //add header for printName
     public String toString(){
         //add body of printName
-        return "The student's name is "+this.name;
+        return "Name: "+this.name+", Test 1: "+this.score1+", Test 2: "+this.score2;
     }
 }
